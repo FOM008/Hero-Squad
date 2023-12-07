@@ -33,6 +33,7 @@ public class Hero {
             this.squadGroup = "";
         }
     }
+
     public void setPower(String power) {
         heroSpecialPower = power;
     }
@@ -92,3 +93,5 @@ public class Hero {
         }
     }
 }
+
+
