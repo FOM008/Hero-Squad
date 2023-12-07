@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Squads</title>
+</head>
+<body>
+    <h1>List of Squads</h1>
+    <ul>
+        #foreach($squad in $squads)
+            <li>$squad.name - $squad.cause</li>
+        #end
+    </ul>
+</body>
+</html>
